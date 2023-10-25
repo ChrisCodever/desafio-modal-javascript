@@ -1,0 +1,85 @@
+.black-bar {
+  display: flex;
+  width: 100%;
+  background: black;
+  
+     
+}
+
+.black-bar_container {
+  display: flex;
+  
+    justify-content: space-between;
+     width: 100%;
+    height: 56px;
+    align-items: center;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: .75rem;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    /* margin-left: 84px;
+    margin-right: 84px; */
+
+
+     
+}
+
+.blackbar_list {
+  display: flex;
+}
+
+.black-bar_listjava {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+@media    (min-width:200px) and (max-width:656px) {
+  li {
+  list-style-type: none;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 110%;      }
+
+ }
+
+ @media    (min-width:200px) and (max-width:522px) {
+  li {
+  list-style-type: none;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 90%;      }
+
+ }
+
+ @media    (min-width:200px) and (max-width:457px) {
+  li {
+  list-style-type: none;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80%;      }
+
+ }
+
+.back-modal {
+  background: rgb(243, 218, 79);
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.btninserir {
+  background: rgb(79, 145, 243);
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+

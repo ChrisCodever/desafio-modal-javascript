@@ -1,0 +1,51 @@
+.form {
+   
+  gap: 20px;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  /* border: 3px solid red; */
+   /* background: rgb(99, 80, 8); */
+  
+}
+
+.form label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+  /* background: green; */
+}
+
+ .botao {
+  /* grid-column: span 2; */
+  background:  rgb(31, 146, 240);
+  border-radius: 4px;
+  margin: 3px;
+  padding: 5px;
+  color: aliceblue;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-1);
+  border: 1px solid var(--cor-2);
+  padding: 12px;
+  border-radius: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(243, 241, 230);
+   
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+ 
