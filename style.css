@@ -7,11 +7,21 @@
  
 
  
-  main{
+  /* main{
   border: red solid ;
    
-  }
+  } */
 
+
+ @media      (max-width:540px) {
+  .imgmodal {
+    max-width: 350px;
+  }
+}
+
+
+
+  
 
  .coluna01 , .coluna02 {
   display: flex;
