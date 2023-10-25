@@ -6,6 +6,18 @@
      
 }
 
+.black-bar2 {
+  display: flex;
+  /* width: 100%; */
+  background: rgb(248, 234, 188);
+  height: 100px;
+  
+     
+}
+
+
+
+
 .black-bar_container {
   display: flex;
   
