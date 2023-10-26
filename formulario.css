@@ -1,13 +1,20 @@
+ 
+
 .form {
    
   gap: 20px;
-  width: 400px;
-  height: 400px;
+  width: 280px;
+  height: 200px;
   margin: auto;
   /* border: 3px solid red; */
    /* background: rgb(99, 80, 8); */
   
 }
+
+
+
+
+
 
 .form label {
   display: block;
@@ -50,13 +57,13 @@
 .form input[type="email"],
 .form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
-  background: var(--cor-1);
-  border: 1px solid var(--cor-2);
+  background:  white;
+  border: 1px solid black;
   padding: 12px;
   border-radius: 7px;
   width: 100%;
   box-sizing: border-box;
-  background: rgb(243, 241, 230);
+  /* background: rgb(139, 139, 136); */
    
 }
 
@@ -64,8 +71,8 @@
 .form input[type="email"]:focus,
 .form textarea:focus {
   outline: none;
-  border-color: var(--cor-p1);
-  background: var(--cor-0);
+  border-color: rgb(218, 214, 214);
+  background: rgba(32, 207, 32, 0.103);
   box-shadow: 0 0 0 2px #fea;
 }
 
