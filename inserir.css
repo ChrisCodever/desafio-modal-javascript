@@ -16,32 +16,36 @@ display: none;
 .inserir-content {
   margin:  0 auto;
   margin-top: 3%;
-  width: 500px;
+  width: 480px;
   height: 300px;
   background-color: antiquewhite;
   padding: 5px;
   box-shadow: 0 0 2px white;
   display: flex;
   border-radius: 7px;
+   gap: 10px;
 }
 
-@media (max-width:542px){
+@media  (max-width:567px){
 
   .inserir-content {
-  margin:  0 auto;
+  margin:   0 auto;
   margin-top: 3%;
-  width: 300px;
+  width: 355px;
   height: 300px;
   background-color: antiquewhite;
   padding: 5px;
   box-shadow: 0 0 2px white;
   display: flex;
   border-radius: 7px;
+  justify-content: center;
 }
+ 
+ 
 }
 
 .form-iframe {
-  width: 100vw;
+  width: 350px;
   height: 100vh;
 }
 
@@ -50,8 +54,14 @@ display: none;
   color: aliceblue;
   border-radius: 5px;
   border: 1px solid black;
-  width: 200px;
+  width: 100px;
   height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      
+
+  
    
  }
 
@@ -61,8 +71,11 @@ display: none;
   color: aliceblue;
   border-radius: 5px;
   border: 1px solid rgb(247, 247, 247);
-  width: 200px;
+  width: 100px;
   height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  .btn:active {
@@ -70,8 +83,11 @@ display: none;
   color: aliceblue;
   border-radius: 5px;
   border: 1px solid black;
-  width: 200px;
+  width: 100px;
   height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  
