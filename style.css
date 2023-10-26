@@ -22,6 +22,22 @@
 }
 
 
+@media (max-width:542px){
+
+  .inserir-content {
+  margin:  0 auto;
+  margin-top: 3%;
+  width: 400px;
+  height: 300px;
+  background-color: antiquewhite;
+  padding: 5px;
+  box-shadow: 0 0 2px white;
+  display: flex;
+  border-radius: 7px;
+}
+}
+
+
 
   
 
