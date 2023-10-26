@@ -84,11 +84,35 @@ li {
   color: rgb(0, 0, 0);
 }
 
+.back-modal:hover {
+  background: rgb(170, 145, 3);
+  color: rgb(255, 254, 254);
+}
+
+.back-modal:active {
+  background: rgb(0, 0, 0);
+  color:  #fff;
+}
+
 .btninserir {
   background: rgb(79, 145, 243);
   border-radius: 5px;
   padding: 5px;
   text-decoration: none;
   color: rgb(0, 0, 0);
+}
+
+.btninserir:hover {
+  background: rgb(17, 95, 211);
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+}
+
+
+.btninserir:active {
+  background: rgb(0, 0, 0);
+  color: rgb(221, 219, 219);
 }
 
