@@ -1,3 +1,5 @@
+// CÓDIGO PARA OS DOIS MODAIS 
+
 function openModal(chave) {
   let modal = document.getElementById(chave);
 

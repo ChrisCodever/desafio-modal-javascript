@@ -14,6 +14,12 @@
    
   } */
 
+ 
+.imgmodal {
+  border-radius: 5px;
+  border: 5px solid rgba(223, 220, 220, 0.411);
+}
+
 
  @media      (max-width:540px) {
   .imgmodal {

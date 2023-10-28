@@ -1,4 +1,4 @@
- 
+
 
 .form {
    
@@ -13,9 +13,6 @@
 
 
 
-
-
-
 .form label {
   display: block;
   font: 600 1rem/1.5 "Poppins", sans-serif;
@@ -23,30 +20,33 @@
   /* background: green; */
 }
 
- .botao {
+ .adicionar {
   /* grid-column: span 2; */
   background:  rgb(31, 146, 240);
   border-radius: 4px;
   margin: 3px;
+  margin-top: 30px;
   padding: 5px;
   color: aliceblue;
 }
 
-.botao:hover {
+.adicionar:hover {
   /* grid-column: span 2; */
   background:  rgb(111, 185, 245);
   border-radius: 4px;
   margin: 3px;
+  margin-top: 30px;
   padding: 5px;
   color: aliceblue;
    
 }
 
-.botao:active {
+.adicionar:active {
   /* grid-column: span 2; */
   background:  rgb(0, 0, 0);
   border-radius: 4px;
   margin: 3px;
+  margin-top: 30px;
   padding: 5px;
   color: aliceblue;
   border: 1px solid rgb(255, 255, 255);
@@ -83,3 +83,4 @@
   margin-top: 5px;
 
 }
+

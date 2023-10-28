@@ -18,9 +18,9 @@
   <link rel="preload" href="inserir.css">
   <link rel="stylesheet" href="inserir.css">
 
-  <script src="js/script.js"></script>
 
-  <script src="inserir.js"></script>
+  <script src="script.js"></script>
+
 
 
 
@@ -39,18 +39,40 @@
     </ul>
 
     <ul class="black-bar_listjava">
-
-      <li><a data-modal="abrir" href="# " class="back-modal">MODAL</a></li>
-
+      <li><a data-modal="abrir" href="# " class="back-modal" onclick="openModal('modal-modal')">MODAL</a></li>
       <li><a data-modal="abrir" href="# " class="btninserir" onclick="openModal('inserir-modal')">INSERIR</a></li>
       <li>OUTRO</li>
-
     </ul>
   </div>
-
 </div>
 
-<div class="black-bar2">
+
+<!-- CÓDIGO PARA MODAL  -->
+
+<section id="modal-modal" class="modal2">
+  <div class="modal-content">
+    <img class="imgmodal" src="images/malandro.jpg" alt="">
+    <button class="btn-modal" onclick="closeModal('modal-modal')">X</button>
+  </div>
+</section>
+
+<!-- SEGUNDO MODAL -->
+
+<div id="inserir-modal" class="inserir">
+  <div class="inserir-content">
+    <iframe class="form-iframe" src="formulario.html" frameborder="0">
+      Seu Navegador não é compatível com isso.
+    </iframe>
+    <br>
+    <button class="btn" onclick="closeModal('inserir-modal')">Fechar</button>
+  </div>
+</div>
+
+
+
+
+
+<div class="yellow-bar">
 
   <img class="logoerol" src="images/erol logo.png" alt="">
 
@@ -134,29 +156,6 @@
   <footer>Experimentando com JavaScript - Christian Orsogna</footer>
 
 
-
-
-
-  <section class="modal-container" data-modal="container">
-    <div class="modal">
-      <img class="imgmodal" src="images/malandro.jpg" alt="">
-      <button data-modal="fechar" class="fechar">x</button>
-    </div>
-  </section>
-  <script type="module" src="js/script.js"></script>
-
-
-
-  <div id="inserir-modal" class="inserir">
-    <div class="inserir-content">
-      <iframe class="form-iframe" src="formulario.html" frameborder="0">
-        Seu Navegador não é compatível com isso.
-      </iframe>
-      <br>
-
-      <button class="btn" onclick="closeModal('inserir-modal')">Fechar</button>
-    </div>
-  </div>
 
 
 

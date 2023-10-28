@@ -3,6 +3,7 @@
 
 
 <link rel="stylesheet" href="formulario.css">
+<script src="formulario.js"></script>
 
 
 <head>
@@ -14,19 +15,25 @@
 
 
   <form class="form">
+
     <div>
-      <label for="nome">Imagem</label>
-      <input type="text" id="nome" name="nome" placeholder="URL da Imagem">
+      <label for="imagem">Imagem</label>
+      <input type="url" id="imagem" name="imagem" placeholder="URL da Imagem">
     </div>
 
 
     <div class="col-2">
-      <label for="descricao">Detalhes da Notícia</label>
-      <textarea rows="5" id="mensagem" name="mensagem" placeholder="Notícia"></textarea>
+      <label class="label-descricao" for="descricao">Detalhes da Notícia</label>
+      <textarea rows="5" id="noticia" name="noticia" placeholder="Notícia"></textarea>
     </div>
 
-    <button class="botao col-2"> Adicionar</button>
+    <input class="adicionar" type="submit" value="Adicionar">
+
   </form>
+
+
+
+
   </section>
 </head>
 
