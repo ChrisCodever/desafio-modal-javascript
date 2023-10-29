@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 
 <link rel="stylesheet" href="formulario.css">
+<script src="formulario.js"></script>
+
 
 
 
@@ -14,7 +16,25 @@
 
 
 
-  <form class="form">
+  <form action="javascript: enviar();">
+    <label for="url">URL</label>
+    <input type="url" class="js-input-url" name="url">
+    <br>
+
+
+    <label for="notic">Notícia</label>
+
+    <textarea name="notic" id="" cols="30" rows="15" class="js-input-notic"></textarea>
+
+
+    <input type="submit" value="enviar" class="adicionar">
+  </form>
+
+
+
+
+
+  <!-- <form class="form">
 
     <div>
       <label for="imagem">Imagem</label>
@@ -29,10 +49,7 @@
 
     <input class="adicionar" type="submit" value="Adicionar">
 
-  </form>
-
-
-
+  </form> -->
 
   </section>
 </head>
