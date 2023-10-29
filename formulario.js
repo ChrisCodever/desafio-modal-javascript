@@ -6,7 +6,7 @@ function enviar() {
 
   var formValue = {
     URL: nomeValue,
-    DetalhesdaNoticia: emailValue,
+    Notícia: emailValue,
 
   };
   console.log(formValue);
