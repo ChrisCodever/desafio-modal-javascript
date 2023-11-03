@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 
 <link rel="stylesheet" href="formulario.css">
+<script src="inserir.js"></script>
+
+<script src="formulario.js"></script>
+
+
 
 
 <head>
@@ -12,22 +17,27 @@
 
 
 
-
-  <form class="form">
-    <div>
-      <label for="nome">Imagem</label>
-      <input type="text" id="nome" name="nome" placeholder="URL da Imagem">
-    </div>
+  <form action="javascript: enviar();" class="caixa">
+    <label for="url">URL </label>
+    <input type="url" class="js-input-url" name="url">
+    <br>
 
 
-    <div class="col-2">
-      <label for="descricao">Detalhes da Notícia</label>
-      <textarea rows="5" id="mensagem" name="mensagem" placeholder="Notícia"></textarea>
-    </div>
+    <label for="notic">Notícia</label>
 
-    <button class="botao col-2"> Adicionar</button>
-  </form>
-  </section>
+    <textarea name="notic" id="" cols="30" rows="15" class="js-input-notic"></textarea>
+
+
+    <input type="submit" value="enviar" class="adicionar" onclick="executar()">
+
+
+
+
+
+
+
+
+    </section>
 </head>
 
 <body>
