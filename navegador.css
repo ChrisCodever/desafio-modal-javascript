@@ -78,6 +78,15 @@ li {
 
  }
 
+ @media    (min-width:200px) and (max-width:424px) {
+  li {
+  list-style-type: none;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60%;      }
+
+ }
+
 .back-modal {
   background: rgb(243, 218, 79);
   border-radius: 5px;

@@ -1,4 +1,4 @@
-
+console.log('formulario link ok')
 
 function executar() {
 
@@ -37,20 +37,5 @@ function executar() {
 
 }
 
-console.log('formulario link ok')
 
-// function executar() {
 
-//   //criar elemento
-//   var url = document.querySelector(".js-input-url").value;
-
-//   let novo_elemento2 = document.createElement('div');
-//   novo_elemento2.className = "novodomurl";
-//   novo_elemento2.innerText = url;
-
-//   //adicionar elemento ao formexistente
-
-//   let elemento2 = document.querySelector('news_url');
-//   elemento2.appendChild(novo_elemento2);
-
-// }

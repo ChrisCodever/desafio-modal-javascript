@@ -1,3 +1,5 @@
+console.log('script link ok')
+
 // CÓDIGO PARA OS DOIS MODAIS
 
 function openModal(chave) {
@@ -17,9 +19,6 @@ function closeModal(chave) {
   modal.style.display = 'none';
 
 }
-
-
-// testando
 
 
 
