@@ -6,7 +6,9 @@
   padding: 0px;
    
 }
-
+body{
+  background-color: rgb(245, 241, 236);
+}
  
  
   /* main{
@@ -15,23 +17,7 @@
   } */
 
  
-.imgmodal {
-  border-radius: 5px;
-  border: 5px solid rgba(223, 220, 220, 0.411);
-}
 
-
- @media      (max-width:540px) {
-  .imgmodal {
-    max-width: 350px;
-  }
-}
-
-@media      (max-width:455px) {
-  .imgmodal {
-    max-width: 270px;
-  }
-}
 
   
  .coluna01 , .coluna02 {
