@@ -14,6 +14,15 @@
     
 }
 
+ @media    (min-width:200px) and (max-width:424px) {
+    .yellow-bar {
+  display: flex;
+  background: rgba(248, 234, 188, 0.959);
+  height: 80px;
+    box-shadow: 0 0 1em rgba(3, 3, 0, 0.623);
+}
+ }
+
 
 
 
