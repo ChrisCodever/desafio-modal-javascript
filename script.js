@@ -1,3 +1,5 @@
+// CÓDIGO PARA OS DOIS MODAIS
+
 function openModal(chave) {
   let modal = document.getElementById(chave);
 
@@ -15,3 +17,10 @@ function closeModal(chave) {
   modal.style.display = 'none';
 
 }
+
+
+// testando
+
+
+
+
