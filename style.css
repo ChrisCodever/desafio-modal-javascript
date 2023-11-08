@@ -27,6 +27,11 @@
   }
 }
 
+@media      (max-width:455px) {
+  .imgmodal {
+    max-width: 270px;
+  }
+}
 
   
  .coluna01 , .coluna02 {
