@@ -1,15 +1,18 @@
 
 
-.form {
+
+
+.caixa_form {
    
-  gap: 20px;
-  width: 280px;
-  height: 200px;
-  margin: auto;
+  margin:  0  ;
+  width: 80px;
+  height: 80px;
   /* border: 3px solid red; */
    /* background: rgb(99, 80, 8); */
   
 }
+
+
 
 
 
@@ -94,7 +97,7 @@
 
 
 .js-input-url {
-  width: 274px;
+  width: 244px;
   margin-left: 14px;
 }
 
@@ -125,3 +128,18 @@
   
  font-family: 'Roboto', sans-serif;
 }  
+
+
+
+
+@media  (max-width:567px){
+
+  .caixa_form {
+   
+  margin-left: -225px;
+  width: 50px;
+  height: 50px;
+  /* border: 3px solid red;   */
+   /* background: rgb(99, 80, 8); */
+  
+}

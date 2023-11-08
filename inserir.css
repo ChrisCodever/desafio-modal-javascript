@@ -16,8 +16,8 @@ display: none;
 .inserir-content {
   margin:  0 auto;
   margin-top: 3%;
-  width: 410px;
-  height: 360px;
+  width: 280px;
+  height: 390px;
   background-color: antiquewhite;
   padding: 5px;
   box-shadow: 0 0 2px white;
@@ -31,10 +31,10 @@ display: none;
   .inserir-content {
   margin:   0 auto;
   margin-top: 3%;
-  width: 355px;
-  height: 380px;
+  width: 280px;
+  height: 390px;
   background-color: antiquewhite;
-  padding: 5px;
+  padding: 2px;
   box-shadow: 0 0 2px white;
   display: flex;
   border-radius: 7px;
