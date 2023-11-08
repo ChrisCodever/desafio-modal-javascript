@@ -17,13 +17,14 @@ display: none;
   margin:  0 auto;
   margin-top: 3%;
   width: 280px;
-  height: 390px;
+  height: 410px;
   background-color: antiquewhite;
   padding: 5px;
-  box-shadow: 0 0 2px white;
   display: flex;
   border-radius: 7px;
    gap: 10px;
+  border: 2px solid rgba(17, 0, 0, 0.822);
+
 }
 
 @media  (max-width:567px){
@@ -32,13 +33,14 @@ display: none;
   margin:   0 auto;
   margin-top: 3%;
   width: 280px;
-  height: 390px;
+  height: 410px;
   background-color: antiquewhite;
   padding: 2px;
-  box-shadow: 0 0 2px white;
   display: flex;
   border-radius: 7px;
   justify-content: center;
+  border: 2px solid rgba(17, 0, 0, 0.822);
+
 }
  
  
