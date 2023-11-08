@@ -1,29 +1,3 @@
-// function enviar() {
-//   //Variaveis que recebem valor dos inputs e depois são atribuidas ao JSON
-//   var url = document.querySelector(".js-input-url").value;
-//   var noticia = document.querySelector(".js-input-notic").value;
-
-
-//   var formValue = {
-//     URL: url,
-//     Noticia: noticia,
-//   };
-
-
-//   console.log(formValue);
-
-
-
-
-
-// }
-
-
-
-
-
-
-
 
 
 function executar() {
@@ -41,10 +15,11 @@ function executar() {
   novo_elemento.className = "novodom";
   novo_elemento.innerText = noticia;
 
+  let novo_elemento_2 = document.createElement('h2');
+  novo_elemento_2.className = "novodomurl";
+  novo_elemento_2.innerText = url;
 
-  let novo_elemento2 = document.createElement('h2');
-  novo_elemento2.className = "novodomurl";
-  novo_elemento2.innerText = url;
+
 
 
   //adicionar elemento ao formexistente
@@ -53,11 +28,16 @@ function executar() {
   elemento.appendChild(novo_elemento);
 
 
-  let elemento2 = document.querySelector('purl');
-  elemento2.appendChild(novo_elemento2);
+
+
+
+
+  let elemento2 = document.querySelector('.purl');
+  elemento2.appendChild(novo_elemento_2);
 
 }
 
+console.log('formulario link ok')
 
 // function executar() {
 
