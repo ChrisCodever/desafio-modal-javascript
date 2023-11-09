@@ -110,11 +110,9 @@
   background-color: rgb(199, 109, 24);
    font-size: 14px;
   max-width: 175px;
-  text-align: justify;
-  margin: 2px;
-
-  
- font-family: 'Roboto', sans-serif;
+  padding: 1px;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
   
@@ -122,8 +120,8 @@
   background-color: rgb(39, 199, 24);
    font-size: 14px;
   max-width: 175px;
-  text-align: justify;
-  margin: 2px;
+  padding: 1px;
+  overflow: hidden;
 
   
  font-family: 'Roboto', sans-serif;
