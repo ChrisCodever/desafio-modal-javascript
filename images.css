@@ -21,7 +21,10 @@ img {
  max-width: 155px;
  max-height: 105px;
 }
-
+img {
+ max-width: 155px;
+ max-height: 105px;
+}
   
  }
 
