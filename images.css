@@ -1,3 +1,9 @@
+img {
+ max-width: 185px;
+ max-height: 135px;
+}
+
+
 .news {
   padding: 5px;
   margin-top: 8px;
@@ -9,12 +15,14 @@
  max-height: 135px;
 }
 
+
  @media    (min-width:200px) and (max-width:424px) {
    .news-img {
  max-width: 155px;
  max-height: 105px;
 }
 
+  
  }
 
 
