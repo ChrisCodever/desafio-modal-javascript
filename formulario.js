@@ -1,41 +1,24 @@
-console.log('formulario link ok')
-
 function executar() {
-
-  //criar elemento
-
+  // Pegar os valores do formulário
   var noticia = document.querySelector(".js-input-notic").value;
   var url = document.querySelector(".js-input-url").value;
 
-
-
-
-
-  let novo_elemento = document.createElement('h2');
+  // Criar elementos
+  let novo_elemento = document.createElement("h2");
   novo_elemento.className = "novodom";
   novo_elemento.innerText = noticia;
 
-  let novo_elemento_2 = document.createElement('h2');
-  novo_elemento_2.className = "novodomurl";
-  novo_elemento_2.innerText = url;
+  let nova_imagem = document.createElement("img");
+  nova_imagem.className = "novodomurl";
+  nova_imagem.src = url;
+  nova_imagem.alt = "Imagem da Notícia";
 
-
-
-
-  //adicionar elemento ao formexistente
-
-  let elemento = document.querySelector('.adicnotich2');
+  // Adicionar elementos ao DOM
+  let elemento = document.querySelector(".adicnotich2");
+  elemento.innerHTML = ""; // Limpar qualquer conteúdo anterior
   elemento.appendChild(novo_elemento);
 
-
-
-
-
-
-  let elemento2 = document.querySelector('.purl');
-  elemento2.appendChild(novo_elemento_2);
-
+  let elemento2 = document.querySelector(".purl");
+  elemento2.innerHTML = ""; // Limpar qualquer conteúdo anterior
+  elemento2.appendChild(nova_imagem);
 }
-
-
-
