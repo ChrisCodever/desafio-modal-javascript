@@ -1,5 +1,4 @@
 function executar() {
-  // Pegar os valores do formulário
   var noticia = document.querySelector(".js-input-notic").value;
   var url = document.querySelector(".js-input-url").value;
 

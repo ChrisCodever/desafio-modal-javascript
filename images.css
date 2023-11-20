@@ -1,7 +1,17 @@
-img {
+.novodomurl {
  max-width: 185px;
  max-height: 135px;
+  
 }
+
+.purl {
+ max-width: 185px;
+ max-height: 135px;
+ margin: auto;
+ padding: 0;
+}
+
+
 
 
 .news {
@@ -21,11 +31,15 @@ img {
  max-width: 155px;
  max-height: 105px;
 }
-img {
+ .novodomurl {
  max-width: 155px;
  max-height: 105px;
 }
   
+.purl {
+ max-width: 155px;
+ max-height: 105px;
+}
  }
 
 
